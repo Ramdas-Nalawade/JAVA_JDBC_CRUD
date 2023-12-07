@@ -12,7 +12,7 @@ public class DBUtils
 	{
 		String url = "jdbc:mysql://localhost:3306/advjava?createDatabaseI"
 				+ "fNotExist=true&useSSL=false&allowPublicKeyRetrieval=true";
-		connection = DriverManager.getConnection(url, "root", "root123");
+		connection = DriverManager.getConnection(url, "username", "password");
 		
 		return connection;
 	}
